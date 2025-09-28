@@ -215,10 +215,27 @@ body {
                 
                 .liked_by {
                     display: flex;
+                    padding: 0;
+                    margin: 0;
                     h3{
                         padding: 2px;
                     }
                 }
+                .view_comments {
+                    background: none;
+                    border: none;
+                    color: #8A8A8A;
+                }
             }
+        .bottom_dashboard {
+            display: flex;
+            justify-content: space-between;
+            button {
+                background: none;
+                border: none;
+
+            }
+        }    
+
     }
 }

@@ -195,9 +195,24 @@ body .main .marvel_post .post_dashboard .save img {
 }
 body .main .marvel_post .liked_by {
   display: flex;
+  padding: 0;
+  margin: 0;
 }
 body .main .marvel_post .liked_by h3 {
   padding: 2px;
+}
+body .main .marvel_post .view_comments {
+  background: none;
+  border: none;
+  color: #8A8A8A;
+}
+body .main .bottom_dashboard {
+  display: flex;
+  justify-content: space-between;
+}
+body .main .bottom_dashboard button {
+  background: none;
+  border: none;
 }
 
 /*# sourceMappingURL=home.css.map */
