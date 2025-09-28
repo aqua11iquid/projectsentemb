@@ -1,0 +1,158 @@
+
+@font-face {
+    font-family: Inter;
+    font-weight: lighter;
+    src: url("../fonts/Inter/Inter_24pt-Regular.ttf");
+}
+@font-face {
+    font-family: Inter;
+    font-weight: normal;
+    src: url("../fonts/Inter/Inter_24pt-Medium.ttf");
+}
+@font-face {
+    font-family: Inter;
+    font-weight: bold;
+    src: url("../fonts/Inter/Inter_24pt-SemiBold.ttf");
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Inter;
+
+    .main {
+    width: 375px;
+    max-height: 812px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    .phone_info {
+        display: flex;
+        justify-content: space-between;
+        div {
+            margin: 15px 30px;
+        }
+        .time {
+            font-weight: 400;
+            font-size: 15px;
+        }
+    }
+    .general {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 130px;
+        .language{
+            display: flex;
+            background: none;
+            border: none;
+            margin: 10px auto;
+            height: 20px;
+            align-items: center;
+            h4{
+                margin: 0;
+                padding: 0;
+                color: #868686;
+                font-size: 12px;
+                font-weight: 400;
+            }
+            img{
+                margin: 5px 0 3px 3px;
+            }
+        }
+
+        .logo_sign_up {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+            img {
+                width: 235px;
+                height: 67px;
+            }
+            h3 {
+                padding: 25px;
+                margin: 0;
+                font-size: 10px;
+                font-weight: 500;
+            }
+        }
+        
+        .sign_up_container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            .facebook_button {
+            display: flex;
+            align-items: center;
+            background-color: #1877F2;
+            border: none;
+            border-radius: 8px;
+            width: 315px;
+            height: 42px;
+            justify-content: center;
+            h3{
+                color: white;
+                font-size: 12px;
+                font-weight: 500;
+            }
+            
+        }
+            .or{
+                display: flex;
+                align-items: center;
+                width: 315px;
+                margin: 20px 0;
+                hr{
+                    flex: 1;
+                    width: 130px;
+                    color: #D3D3D3;
+
+                }
+                h2{
+                    margin: 0px 20px;
+                    font-weight: 600;
+                    font-size: 12px;
+                    color: #6D6D6D;
+                }
+            }
+            .sign_up {
+                border: none;
+                background: none;
+                font-weight: 600;
+                font-size: 14px;
+            }
+        }
+        .footer {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+            border: none;
+            background-color: #F4F4F4;
+            font-size: 12px;
+            font-weight: 400;
+            color: #6B6B6B;
+            .sign_in {
+                margin: 5px;
+                padding: 0;
+                color: #23244F;
+                
+
+
+            }
+        }
+
+        
+
+        
+    }
+
+    }
+
+}
