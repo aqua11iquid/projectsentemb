@@ -26,7 +26,6 @@ body {
     min-height: 100vh;
     margin: 0 auto;
     background-color: white;
-    position: relative;
     .phone_info {
         display: flex;
         justify-content: space-between;
@@ -43,7 +42,7 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 130px;
+        gap: 10px;
         .language{
             display: flex;
             background: none;
@@ -65,18 +64,31 @@ body {
 
         .logo_sign_up {
                 display: flex;
-                flex-direction: column;
                 align-items: center;
+                margin: 20px;
                 
             img {
-                width: 235px;
-                height: 67px;
+                width: 175px;
+                height: 50px;
             }
-            h3 {
-                padding: 25px;
-                margin: 0;
-                font-size: 10px;
-                font-weight: 500;
+            
+        }
+
+        .user {
+            margin: 40px;
+            
+            textarea {
+            width: 320px;      
+            height: 40px;     
+            resize: none;      
+            padding: 10px;
+            font-size: 10px;
+            border: 2px solid #848484;
+            border-radius: 5px;
+            font-family: Inter;
+            color: #848484;
+            font-weight: 300;
+            margin: 10px;
             }
         }
         
@@ -85,28 +97,63 @@ body {
             flex-direction: column;
             align-items: center;
             gap: 15px;
-            .facebook_button {
+
+            .sign_up_button {
             display: flex;
             align-items: center;
-            background-color: #1877F2;
+            background-color: #1877F299;
             border: none;
             border-radius: 8px;
             width: 315px;
             height: 42px;
             justify-content: center;
             cursor: pointer;
-            h3{
-                color: white;
+            margin: 30px;
+                h3{
+                    color: #FFFFFF4D;
+                    font-size: 12px;
+                    font-weight: 500;
+                    font-family: Inter;
+                }
+            }
+            .sign_in_button {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                background: none;
                 font-size: 12px;
-                font-weight: 500;
+                font-weight: 400;
+                color: #6B6B6B;
+                font-family: Inter;
+                .sign_in {
+                    margin: 5px;
+                    padding: 0;
+                    color: #23244F;
+                    cursor: pointer;
+                    font-family: Inter;
+
+                }
             }
             
+            
         }
-            .or{
+        
+            
+            .sign_up {
+                border: none;
+                background: none;
+                font-weight: 600;
+                font-size: 14px;
+                cursor: pointer;
+            }
+        }
+        .or{
                 display: flex;
                 align-items: center;
                 width: 315px;
-                margin: 20px 0;
+                margin: 10px 0;
                 hr{
                     flex: 1;
                     width: 130px;
@@ -120,34 +167,22 @@ body {
                     color: #6D6D6D;
                 }
             }
-            .sign_up {
-                border: none;
-                background: none;
-                font-weight: 600;
-                font-size: 14px;
-                cursor: pointer;
-            }
-        }
-        .footer {
-            width: 100%;
+        .facebook_button {
             display: flex;
             align-items: center;
-            justify-content: center;
-            position: absolute;
-            bottom: 0;
+            background-color: #1877F2;
             border: none;
-            background-color: #F4F4F4;
-            font-size: 12px;
-            font-weight: 400;
-            color: #6B6B6B;
-            .sign_in {
-                margin: 5px;
-                padding: 0;
-                color: #23244F;
-                cursor: pointer;
-
-            }
-        }   
+            border-radius: 8px;
+            width: 315px;
+            height: 42px;
+            justify-content: center;
+            margin: 20px;
+            cursor: pointer;
+            h3{
+                color: white;
+                font-size: 12px;
+                font-weight: 500;
+            }  
     }
     }
 }
