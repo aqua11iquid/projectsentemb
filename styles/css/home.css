@@ -32,7 +32,7 @@ body .main .phone_info {
   justify-content: space-between;
 }
 body .main .phone_info div {
-  margin: 15px 30px;
+  margin: 12px 30px;
 }
 body .main .phone_info .time {
   font-weight: 400;
@@ -43,16 +43,23 @@ body .main .top_nav {
   justify-content: space-between;
   padding: 5px 15px;
 }
+body .main .top_nav .logo {
+  height: 35px;
+}
 body .main .top_nav .top_dashboard button {
   background: none;
   border: none;
   margin: 5px;
 }
+body .main .top_nav .top_dashboard button img {
+  height: 22px;
+}
 body .main .stories {
   display: flex;
-  gap: 5px;
-  padding: 10px;
+  gap: 3px;
+  padding: 5px;
   overflow-x: auto;
+  border-bottom: 1px solid rgb(226, 220, 220);
 }
 body .main .stories::-webkit-scrollbar {
   width: 0;
@@ -68,7 +75,7 @@ body .main .stories button {
   cursor: pointer;
 }
 body .main .stories button h3 {
-  margin-top: 8px;
+  margin: 5px;
   font-size: 12px;
   font-family: Roboto;
   color: #333;
@@ -116,11 +123,24 @@ body .main .add_story .add-icon {
   border-radius: 50%;
   border: 3px solid #fff;
 }
+body .main .marvel_post {
+  padding: 3px 0;
+  font-family: Roboto;
+  overflow-x: auto;
+}
+body .main .marvel_post::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+body .main .marvel_post .marvel_post_img {
+  width: 375px;
+  padding: 5px 0;
+}
 body .main .marvel_post .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 12px;
+  padding: 0 12px;
 }
 body .main .marvel_post .header .account {
   display: flex;
@@ -132,9 +152,10 @@ body .main .marvel_post .header .account {
 }
 body .main .marvel_post .header .account h3 {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
   color: #262626;
+  font-family: Roboto;
 }
 body .main .marvel_post .header .story_ring {
   width: 40px;
@@ -172,6 +193,7 @@ body .main .marvel_post .post_dashboard .visible_interaction button {
   background: none;
   border: none;
   padding: 0;
+  cursor: pointer;
 }
 body .main .marvel_post .post_dashboard .visible_interaction button .img_like {
   width: 20px;
@@ -189,6 +211,7 @@ body .main .marvel_post .post_dashboard .save {
   background: none;
   border: none;
   padding: 0 3px;
+  cursor: pointer;
 }
 body .main .marvel_post .post_dashboard .save img {
   width: 16px;
@@ -196,23 +219,42 @@ body .main .marvel_post .post_dashboard .save img {
 body .main .marvel_post .liked_by {
   display: flex;
   padding: 0;
-  margin: 0;
+  margin: 0 10px;
+  align-items: center;
 }
-body .main .marvel_post .liked_by h3 {
-  padding: 2px;
+body .main .marvel_post .liked_by .thin_txt {
+  padding: 0 2px;
+  font-weight: lighter;
+  font-size: 14px;
+  margin: 0px;
+}
+body .main .marvel_post .liked_by .accounts {
+  font-weight: 600;
+  margin: 2px;
+  font-size: 14px;
+  margin: 3px;
 }
 body .main .marvel_post .view_comments {
   background: none;
   border: none;
   color: #8A8A8A;
+  margin: 10px;
+  cursor: pointer;
 }
 body .main .bottom_dashboard {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
 }
 body .main .bottom_dashboard button {
   background: none;
   border: none;
+  cursor: pointer;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=home.css.map */
