@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign In</title>
     <link rel="stylesheet" href="../styles/css/sign_in.css">
 </head>
 <body>
@@ -17,8 +17,8 @@
                 <img src="../images/sign_in/Wifi.svg" alt="Wifi">
                 <img src="../images/sign_in/Battery.svg" alt="Battery">
             </div>
-
         </div>
+
         <div class="general">
 
             <button class="language">
@@ -27,35 +27,40 @@
             </button>
             
             <div class="logo_sign_up">
-                <img src="../images/sign_in/logos_instagram.svg" alt="">
-        
+                <img src="../images/sign_in/logos_instagram.svg" alt="Instagram Logo">
             </div>
 
+            
             <div class="user">
                 
-                <div class="textarea-container">
-                    <textarea>Phone number, email or username</textarea>
+                <div class="input_container">
+                    <img src="../images/sign_in/User.svg" alt="User Icon" class="input_icon">
+                    <input type="text" id="username" placeholder="Phone number, email or username">
                 </div>
 
-                <div class="password_container">
-                    <textarea placeholder="Password"></textarea>
-
+                
+                <div class="input_container">
+                    <img src="../images/sign_in/Lock.svg" alt="Password Icon" class="input_icon">
+                    <input type="password" id="password" placeholder="Password">
                 </div>
             </div>
 
             
+            <div class="login_container">
+                <button id="login_button">Log in</button>
+            </div>
 
             <div class="sign_up_container">
                 <button class="sign_up_button">
-                    <h3>Sign up </h3>
+                    <h3>Sign up</h3>
                 </button>
 
                 <button class="sign_in_button">
                     <h4>Already have an account?</h4>
                     <h4 class="sign_in">Sign in.</h4>
+                </button>
             </div>
 
-                
             <div class="or">
                 <hr>
                 <h2>OR</h2>
@@ -64,10 +69,12 @@
 
             <button class="facebook_button">
                 <img src="../images/sign_in/Facebook.svg" alt="Facebook">
-                <h3>Sign Up with Facebook </h3>
+                <h3>Sign Up with Facebook</h3>
             </button>
-
         </div>
     </div>  
+
+    
+    <script src="../scripts/auth.js"></script>
 </body>
 </html>
