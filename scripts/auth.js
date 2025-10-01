@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (username === "admin" && password === "1234") {
         window.location.href = "home.html";
       } else {
-        alert("❌ Неверный логин или пароль!");
+        alert("Неверный логин или пароль!!");
       }
     });
   }
