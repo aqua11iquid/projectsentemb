@@ -172,6 +172,7 @@ body .main .facebook_button h3 {
   font-weight: 500;
 }
 
+<<<<<<< HEAD
 .input_container {
     display: flex;
     align-items: center;
@@ -197,4 +198,6 @@ body .main .facebook_button h3 {
 }
 
 
+=======
+>>>>>>> 906e3ac3ad210892486659653f3b8d5f58224eb6
 /*# sourceMappingURL=sign_in.css.map */
